@@ -39,8 +39,16 @@
           "!type": "External",
           "file": [
             "forms",
-            "Form1",
-            "Form1.json"
+            "calc",
+            "calc.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "strings",
+            "strings.json"
           ]
         }
       ],
