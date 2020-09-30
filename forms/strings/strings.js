@@ -16,6 +16,7 @@ let secondQuote = ("Talent is cheaper than table salt. What separates the talent
 let lowerCaseString = secondQuote.toLowerCase()
 console.log(lowerCaseString)
 
-let userName = prompt(Enter a number) 
-let y = 10 
-let answer = Caculate(userName,y)
+let numberSum = parseInt(prompt("Enter one number")) 
+let numberNew = 10 + numberSum(alert(numberNew))
+
+alert(`The number ${numberSum} + 10 is ${numberNew}.`)
