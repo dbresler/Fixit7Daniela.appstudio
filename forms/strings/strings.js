@@ -9,14 +9,16 @@ alert(authorString)
 let completeString = quoteString + authorString
 alert(completeString)
 
-let found = ("Henry is in the quoteString")
-console.log(found)
+let found = completeString.includes(authorString)
+
+if (found == true)
+    alert("Henry is in the string")
+  else 
+    alert("Henry is not in the string")
 
 let secondQuote = ("Talent is cheaper than table salt. What separates the talented individual from the successful one is a lot of hard work. - Stephen King")
 let lowerCaseString = secondQuote.toLowerCase()
 console.log(lowerCaseString)
 
-let numberSum = parseInt(prompt("Enter one number")) 
-let numberNew = 10 + numberSum(alert(numberNew))
-
-alert(`The number ${numberSum} + 10 is ${numberNew}.`)
+let userNumber = Number(prompt('Enter a number'))
+alert(`The number ${userNumber} + 10 is: ${userNumber + 10}`)
